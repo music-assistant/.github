@@ -14,6 +14,7 @@ For issues, please go to [the issue tracker](https://github.com/music-assistant/
 For feature requests, please see [feature requests](https://github.com/music-assistant/support/discussions/categories/feature-requests-and-ideas).
 
 **AI Policy**
+
 Please have a look at our [AI Policy](./AI_POLICY.md) before contributing to Music Assistant.
 
 [![A project from the Open Home Foundation](https://www.openhomefoundation.org/badges/ohf-project.png)](https://www.openhomefoundation.org/)
