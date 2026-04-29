@@ -19,4 +19,4 @@ If you want to report an issue, please [create an issue](https://github.com/musi
 
 ## AI Policy
 
-Music Assistant is an [Open Home Foundation](https://www.openhomefoundation.org/) project and follows the [OHF AI Policy](https://github.com/music-assistant/.github/blob/main/profile/AI_POLICY.md). Please read it before submitting AI-assisted contributions. The TLDR: AI tools are allowed, but a human is responsible and must review and understand every change. Autonomous agents and unreviewed AI output will be rejected.
+Music Assistant is an [Open Home Foundation](https://www.openhomefoundation.org/) project and follows the [OHF AI Policy](https://github.com/music-assistant/.github/blob/main/AI_POLICY.md). Please read it before submitting AI-assisted contributions. The TLDR: AI tools are allowed, but a human is responsible and must review and understand every change. Autonomous agents and unreviewed AI output will be rejected.
