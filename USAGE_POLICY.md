@@ -8,11 +8,12 @@ It is not a tool for downloading, extracting, or keeping copies of music, and we
 
 Music Assistant is designed so that audio flows to your speakers and stops there:
 
-- **No interface hands out a provider's audio.** Nothing in the API, and no endpoint, returns a streaming service's own audio URL. The address a provider gives us is used to fetch audio and is never passed on.
+- **The address we stream from stays inside the server.** The address a service hands us to fetch your music is used for exactly that, and is never passed on to a client. The one exception is the short preview clips a service publishes for embedding, which are public by design and are passed through as they are.
 - **Playback addresses are temporary.** The URL a player uses belongs to one playback session and stops working when that session ends.
-- **Audio is delivered for listening, not collecting.** Audio is served at a rate that suits playback, and is never written to disk.
+- **Audio is delivered for listening, not collecting.** Music from a service is served at a rate that suits playback, and is never written to disk.
 - **We respect each service's limits.** Where a service states how many streams an account may run at once, Music Assistant holds itself to that number.
-- **We do not work around copy protection.** Content protected by DRM is skipped rather than decoded, and we will not accept changes that circumvent it.
+- **We act as a client of the service, not a way around it.** Where a service protects its audio, Music Assistant plays what your own account is entitled to play, through the same interfaces its own app uses. It does not bypass subscription tiers, entitlement checks or regional availability - the service still decides what your account may play - and audio is only ever decoded in order to play it.
+- **We are a well-behaved client.** Requests to a service are throttled, and their results cached, rather than asking again for something we already have.
 - **We do not fetch what nobody asked to hear.** Background processing such as audio analysis is limited to your own files and never pulls a streaming service's catalogue.
 
 ## What we ask of you
