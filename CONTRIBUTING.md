@@ -9,6 +9,17 @@ The process is straight-forward.
  - Ensure tests pass and pre-commit hooks succeed (`pre-commit run --all-files`).
  - Create a Pull Request against the [**dev**](https://github.com/music-assistant/server/tree/dev) branch.
 
+## Adding a provider to the server
+
+A provider that ships with Music Assistant is installed for every user and supported by the project. A new one therefore asks for more than working code:
+
+ - **People ask for it.** Link the feature request or discussion that shows the demand.
+ - **It is documented.** A pull request on the [documentation](https://github.com/music-assistant/music-assistant.io/blob/main/CONTRIBUTING.md) comes with it.
+ - **It meets the standards.** It follows the [development guide](https://github.com/music-assistant/server/blob/dev/DEVELOPMENT.md) and the [usage policy](https://github.com/music-assistant/.github/blob/main/USAGE_POLICY.md), passes the automated checks and has tests of its own.
+ - **You maintain it.** You are listed as its maintainer and keep following up on bug reports and on changes in the service, the device or the server.
+
+A provider whose maintainer no longer follows up may be moved out of the server to the [community catalog](https://github.com/music-assistant/.github/blob/main/COMMUNITY_CATALOG_RULES.md). That is announced first, so that someone can take it over.
+
 ## Feature suggestions
 
 If you want to suggest a new feature for Music Assistant (e.g. new music or player providers), please [start a discussion](https://github.com/music-assistant/support/discussions/categories/feature-requests-and-ideas) on GitHub.
