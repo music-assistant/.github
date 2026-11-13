@@ -32,7 +32,7 @@ As long as it stays within the lines above, a provider may, at the user's own ri
 - play free public content, in the quality the service offers without a subscription;
 - have code that would not pass review for Music Assistant itself.
 
-An unofficial API or reading web pages can be against a service's terms and can put your account at risk. Whether you accept that is up to you. What the usage policy asks of you applies to everything you install.
+An unofficial API or reading web pages can be against a service's terms and can put your account at risk. Being listed does not change that: whether you use such a provider is your own decision.
 
 ## Reporting a provider
 
