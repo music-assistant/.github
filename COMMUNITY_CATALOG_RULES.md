@@ -1,8 +1,6 @@
 # Music Assistant - Community Catalog Rules
 
-> The community catalog is being built and does not accept providers at this moment.
-
-The community catalog is a list of music sources, players and plugins that people from the community build and maintain. Each one lives in its maintainer's own public repository, under an open source licence. An administrator can switch the community catalog on in Music Assistant and install from it.
+The community catalog is a list of music sources, players and plugins that people from the community build and maintain. Each one lives in its maintainer's own public repository, under an open source licence. An administrator can enable the community catalog in the Marketplace of Music Assistant and install from it.
 
 The [usage policy](https://github.com/music-assistant/.github/blob/main/USAGE_POLICY.md) describes what the project itself ships. For what others add to the community catalog, the lines on this page apply.
 
@@ -33,6 +31,10 @@ As long as it stays within the lines above, a provider may, at the user's own ri
 - have code that would not pass review for Music Assistant itself.
 
 An unofficial API or reading web pages can be against a service's terms and can put your account at risk. Being listed does not change that: whether you use such a provider is your own decision.
+
+## Getting a provider listed
+
+Start from the [provider template](https://github.com/music-assistant/community-provider-template): it holds a working example, its tests and the checks every release gets. When your provider works and you have published a release, open a pull request on the [registry](https://github.com/music-assistant/community-catalog) that adds it; the README there says how. A maintainer of the registry decides once, about what the provider does, against the lines on this page. After that you release whenever you want: every release is checked automatically and reaches users without waiting for anyone.
 
 ## Reporting a provider
 

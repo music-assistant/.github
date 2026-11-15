@@ -9,6 +9,13 @@ The process is straight-forward.
  - Ensure tests pass and pre-commit hooks succeed (`pre-commit run --all-files`).
  - Create a Pull Request against the [**dev**](https://github.com/music-assistant/server/tree/dev) branch.
 
+## Two ways to add a provider
+
+Support for a music service, a speaker or anything else can reach users in two ways:
+
+ - **In the community catalog.** You build and maintain the provider in a repository of your own and release it when you want. Users install it from the Marketplace in Music Assistant once they enable the community catalog. It does not have to be of use to everyone, and the project does not review its code. Start from the [provider template](https://github.com/music-assistant/community-provider-template); the [community catalog rules](https://github.com/music-assistant/.github/blob/main/COMMUNITY_CATALOG_RULES.md) say what is accepted.
+ - **In the server.** The provider ships with Music Assistant, is installed for every user and is supported by the project. That asks more of it and of you, as described below.
+
 ## Adding a provider to the server
 
 A provider that ships with Music Assistant is installed for every user and supported by the project. A new one therefore asks for more than working code:
