@@ -34,11 +34,11 @@ An unofficial API or reading web pages can be against a service's terms and can 
 
 ## Getting a provider listed
 
-Start from the [provider template](https://github.com/music-assistant/community-provider-template): it holds a working example, its tests and the checks every release gets. When your provider works and you have published a release, open a pull request on the [registry](https://github.com/music-assistant/community-catalog) that adds it; the README there says how. A maintainer of the registry decides once, about what the provider does, against the lines on this page. After that you release whenever you want: every release is checked automatically and reaches users without waiting for anyone.
+Start from the [provider template](https://github.com/music-assistant/community-provider-template): it holds a working example, its tests and the checks every release gets. When your provider works and you have published a release, submit it with the form [Submit a provider](https://github.com/music-assistant/community-catalog/issues/new?template=submit-provider.yml); the README of the [registry](https://github.com/music-assistant/community-catalog) says what it needs. When every check passes, a registry maintainer decides once, about what the provider does, against the lines on this page. After that you release whenever you want: every release is checked automatically and reaches users without waiting for anyone.
 
 ## Reporting a provider
 
-If a listed provider crosses one of the lines above, open an issue in the [registry](https://github.com/music-assistant/community-catalog/issues). Say which provider it is, what it does and how you noticed.
+If a listed provider crosses one of the lines above, report it with the form [Report or change a provider](https://github.com/music-assistant/community-catalog/issues/new?template=report-provider.yml). Say which provider it is, what it does and how you noticed.
 
 If a provider puts its users at risk, do not post the details in public. Report it through "Report a vulnerability" on the Security tab of the registry instead.
 
