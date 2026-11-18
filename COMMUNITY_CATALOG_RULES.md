@@ -18,6 +18,7 @@ A provider is declined when it is submitted, and blocked when it is found later,
 - circumvents copy protection;
 - downloads or exports music to keep it (a temporary cache that is only used for playback is fine);
 - harms the user, by sending their data anywhere but the service it connects to, by loading code from somewhere else while it runs, or by doing things its description does not mention;
+- offers AI assistants tools whose description or results do more than describe the tool and report what it did, such as instructing the assistant about other tools, the user or the conversation;
 - mainly exists to load other providers, or third-party lists of sources, from outside the community catalog.
 
 ## What is allowed
