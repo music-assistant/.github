@@ -41,8 +41,6 @@ Start from the [provider template](https://github.com/music-assistant/community-
 
 If a listed provider crosses one of the lines above, report it with the form [Report or change a provider](https://github.com/music-assistant/community-catalog/issues/new?template=report-provider.yml). Say which provider it is, what it does and how you noticed.
 
-If a provider puts its users at risk, do not post the details in public. Report it through "Report a vulnerability" on the Security tab of the registry instead. The Music Assistant team uses such a report only to hold back a release or block the provider.
-
 ## What happens to a blocked provider
 
 - It is marked as blocked in the list, with the reason.
