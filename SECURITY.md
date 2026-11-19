@@ -71,6 +71,7 @@ The following are **not** considered security vulnerabilities:
 - **Host system compromise**: Vulnerabilities that require prior access to the underlying operating system or container.
 - **Malicious music files**: Music Assistant processes audio files provided by users and streaming services. Issues caused by intentionally malicious media files are generally out of scope unless they lead to remote code execution or significant security impact beyond local denial of service.
 - **User-installed malicious providers**: Security issues arising from users installing untrusted third-party providers.
+- **Community providers**: A provider from the community catalog is made by its own maintainer, not by Music Assistant. Report a vulnerability in it to that maintainer.
 - **Privilege escalation for authenticated users**: Music Assistant treats all authenticated users as trusted administrators with full access to the system.
 - **Self-inflicted vulnerabilities**: Issues caused by users intentionally misconfiguring their system or disabling security features.
 
